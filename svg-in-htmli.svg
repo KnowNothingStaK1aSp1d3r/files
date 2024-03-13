@@ -17,7 +17,15 @@
   <circle onclick="circle_click(evt)" cx="300" cy="225" r="100"
           fill="red"/>
   <text x="300" y="480" 
-        font-family="Verdana" font-size="35" text-anchor="middle">
-    Click on circle to change its size
+        font-family="Verdana" font-size="350" text-anchor="middle">
+    Visite https://attacker.com.br/404 para saber mais
   </text>
+  <text x="300" y="480" 
+        font-family="Verdana" font-size="35" text-anchor="middle">
+    parabéns!!!!!!
+  </text>
+  <text x="20" y="35" class="small">você</text>
+  <text x="40" y="35" class="heavy">ganhou</text>
+  <text x="55" y="55" class="small">um</text>
+  <text x="65" y="55" class="Rrrrr">Prêmio!</text>
 </svg>
