@@ -1,14 +1,12 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="6cm" height="5cm" viewBox="0 0 600 500"
+<svg width="60cm" height="50cm" viewBox="0 0 600 500"
      xmlns="http://www.w3.org/2000/svg" version="1.1">
   <desc>Example script01 - invoke an ECMAScript function from an onclick event
   </desc>
   <!-- ECMAScript to change the radius with each click -->
   <script type="application/ecmascript"> <![CDATA[
-    alert("sploited");
-    window.location.href="https://www.youtube.com/watch?v=dQw4w9WgXcQ";
   ]]> </script>
 
   <!-- Outline the drawing area with a blue line -->
@@ -17,15 +15,8 @@
   <circle onclick="circle_click(evt)" cx="300" cy="225" r="100"
           fill="red"/>
   <text x="300" y="480" 
-        font-family="Verdana" font-size="350" text-anchor="middle">
-    Visite https://attacker.com.br/404 para saber mais
-  </text>
-  <text x="300" y="480" 
         font-family="Verdana" font-size="35" text-anchor="middle">
-    parabéns!!!!!!
+    https://attacker.com.br/404 acesse para saber mais
   </text>
-  <text x="20" y="35" class="small">você</text>
-  <text x="40" y="35" class="heavy">ganhou</text>
-  <text x="55" y="55" class="small">um</text>
-  <text x="65" y="55" class="Rrrrr">Prêmio!</text>
+  <text x="20" y="35" class="small">você ganhou um prêmio!</text>
 </svg>
